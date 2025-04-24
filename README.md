@@ -1,7 +1,7 @@
 # Chihuahua_or_Muffin
 Disclaimer: Muffins and chihuahuas were not harmed in the making of this model.
 
-# Accuracy
+## Accuracy
 | Epochs | Accuracy |
 |:------:|---------:|
 | 1      | 86.4%    |
@@ -18,12 +18,24 @@ Disclaimer: Muffins and chihuahuas were not harmed in the making of this model.
 ![Image](https://github.com/user-attachments/assets/c45d2ac3-8eee-467d-beea-6b8475c299f5)
 (Not so smart yet)
 
-# Sample Predictions
+## Dataset
+For the image, we used the Muffin vs chihuahua dataset from Kaggle.
+```
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("samuelcortinhas/muffin-vs-chihuahua-image-classification")
+
+print("Path to dataset files:", path)
+```
+All images have been resized to 128x128, ready for CNN's tasty munchies (?).
+
+## Sample Predictions
 |       Input     |   Prediction  |
 |:---------------:|:-------------:|
 | Dog-like Muffin | Chihuahua ✅  |
 | Muffin-like Dog | Muffin ✅     |
 | Mystery         | You decide 🤯 |
 
-# License
+## License
 MIT. Go forth and classify.
