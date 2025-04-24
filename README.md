@@ -1,3 +1,6 @@
+# Chihuahua_or_Muffin
+Disclaimer: Muffins and chihuahuas were not harmed in the making of this model.
+
 # Accuracy
 | Epochs | Accuracy |
 |:------:|---------:|
@@ -12,11 +15,12 @@
 | 9      | 90.6%    |
 | 10     | 90.4%    |
 
-Disclaimer: Muffins and chihuahuas were not harmed in the making of this model.
+![Image](https://github.com/user-attachments/assets/c45d2ac3-8eee-467d-beea-6b8475c299f5)
+(Not so smart yet)
 
 # Sample Predictions
 |       Input     |   Prediction  |
-|:---------------:|--------------:|
+|:---------------:|:-------------:|
 | Dog-like Muffin | Chihuahua ✅  |
 | Muffin-like Dog | Muffin ✅     |
 | Mystery         | You decide 🤯 |
