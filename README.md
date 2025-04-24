@@ -1,2 +1,25 @@
-# Chihuahua_or_Muffin
-Muffin or Chihuahua? When CNN has to decide
+# Accuracy
+| Epochs | Accuracy |
+|:------:|---------:|
+| 1      | 86.4%    |
+| 2      | 87.5%    |
+| 3      | 89.8%    |
+| 4      | 90.6%    |
+| 5      | 92.1%    |
+| 6      | 92.1%    |
+| 7      | 91.8%    |
+| _**8**_      | _**92.3%**_    |
+| 9      | 90.6%    |
+| 10     | 90.4%    |
+
+Disclaimer: Muffins and chihuahuas were not harmed in the making of this model.
+
+# Sample Predictions
+|       Input     |   Prediction  |
+|:---------------:|--------------:|
+| Dog-like Muffin | Chihuahua ✅  |
+| Muffin-like Dog | Muffin ✅     |
+| Mystery         | You decide 🤯 |
+
+# License
+MIT. Go forth and classify.
